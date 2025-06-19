@@ -1,0 +1,37 @@
+{
+  "name": "move_element",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eventoi/Move_Element.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eventoi/Move_Element/issues"
+  },
+  "homepage": "https://github.com/Eventoi/Move_Element#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/plugin-transform-runtime": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-jest": "^30.0.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.29.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^30.0.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
